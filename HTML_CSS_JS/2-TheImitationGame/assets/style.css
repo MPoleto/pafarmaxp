@@ -74,7 +74,7 @@ h2 {
     margin-left: 10px;
 }
 
-h3, h4 {
+h4 {
     
     margin-left: 25px;
 }
@@ -95,3 +95,15 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#trailer:link, #trailer:visited {
+    background-color: rgb(155, 16, 16);
+    color: white;
+    margin-left: 25px;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #trailer:hover { background-color: rgb(96, 9, 9); }
