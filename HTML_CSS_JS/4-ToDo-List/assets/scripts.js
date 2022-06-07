@@ -1,27 +1,35 @@
-let checkboxElement, labelElement, labelInfo;
-let textInput = document.getElementById("new-item");
+const form = document.getElementById('form-container');
+let textInput = document.getElementById('new-item');
 
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const info = textInput.value;
+  addToDo(info);
+});
 
-function addToDo() {
-  checkboxElement = document.createElement("input");
+function addToDo(info) {
+  if (info === '') {
+    alert('Adicione a sua tarefa!');
+  } else {
+    const divInput = document.createElement('div');
+    divInput.setAttribute('class', 'check-label');
 
-  checkboxElement.setAttribute("type", "checkbox");
-  checkboxElement.setAttribute("class", "checkbox-item");
-  checkboxElement.setAttribute("id", textInput.value);
+    const checkboxInput = document.createElement('input');
+    checkboxInput.setAttribute('type', 'checkbox');
+    checkboxInput.setAttribute('class', 'checkbox-item');
+    checkboxInput.setAttribute('id', info);
 
-  document.getElementById("wrapper").appendChild(checkboxElement);
-  
-  labelInfo = createLabel();
-  textInput.value = "";
-  
-}
+    const labelElement = document.createElement('label');
+    labelElement.setAttribute('for', info);
+    const labelInfo = document.createTextNode(info);
+    labelElement.appendChild(labelInfo);
 
-function createLabel() {
-  labelElement = document.createElement("label");
+    divInput.appendChild(checkboxInput);
+    divInput.appendChild(labelElement);
 
-  labelElement.setAttribute("for", textInput.value);
-
-  labelElement.innerHTML += textInput.value + `<br>`;
-
-  document.getElementById("wrapper").appendChild(labelElement);
+    document.getElementById("wrapper").appendChild(divInput);
+    
+    textInput.value = '';
+        
+  }  
 }
