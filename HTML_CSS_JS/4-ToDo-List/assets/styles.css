@@ -1,0 +1,45 @@
+body {
+  margin: auto;
+  padding: 15px;
+  background-color: rgb(63, 63, 73);
+  font-family:'Courier New', Courier, monospace;
+  text-align: justify;
+}
+
+#wrapper {
+  margin: 30px;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+  color:rgb(253, 253, 253);
+}
+
+#new-item {
+  font-size: 1.3em;
+  font-family: serif;
+  width: 25%;
+  padding: 0.2em;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  background-color: darkseagreen;
+  border-radius: 5px;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  padding: 0.4rem 0.8rem;
+  
+
+}
+button:hover {
+  background-color: rgb(10, 10, 10);
+  color: darkseagreen;
+}
+
+.checkbox-item:checked + label {
+  text-decoration: line-through;
+  /*color: rgb(154, 162, 154);*/
+  color: rgb(111, 111, 123);
+}
+
