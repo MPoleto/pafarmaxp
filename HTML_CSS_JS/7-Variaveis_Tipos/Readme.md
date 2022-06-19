@@ -4,7 +4,7 @@ Exercício proposto no curso "Variáveis e tipos" ministrado pela Stephany Nusch
 Linguagem JavaScript.  
 <br />
 
-### Exercício 1  
+### *Exercício 1*
 Verificar, de duas maneiras diferentes, se uma string é um palíndromo (*frase ou palavra que se pode ler, indiferentemente, da esquerda para direita ou vice-versa*).
 
 <br />
@@ -17,7 +17,7 @@ Verificar, de duas maneiras diferentes, se uma string é um palíndromo (*frase 
 
 <br />
 
-### Exercício 2  
+### *Exercício 2* 
 Trocar todos os números pares e diferentes de zero de um array pelo número 0. Se o array for vazio, retorne -1.
 
 <br />

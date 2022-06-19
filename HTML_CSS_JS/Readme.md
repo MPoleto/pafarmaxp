@@ -14,3 +14,5 @@ Criei este repositório para adicionar os projetos que faço com o intuito de pr
 #### JavaScript
 5. Calculadora
 6. Comparar números (operadores).
+7. Verificar palíndromo e substituir números pares (varáveis e tipos).
+8. Funções.
