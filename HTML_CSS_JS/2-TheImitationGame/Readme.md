@@ -10,6 +10,6 @@ O exercício era criar um site usando:
 - Usar Id e classes.
 - Estilizar os elementos da página com CSS.
 
-<br>
+<br />
 
 >A minha ideia foi criar um site de um filme, contendo algumas informações, como sinopse, ficha técnica e um link para o trailer do filme. Escolhi o filme "The Imitation Game" (O Jogo da Imitação), pois além de um ótimo filme conta um pouco sobre a história Alan Turing, que devido às suas contribuições é considerado o pai da ciência da computação.
