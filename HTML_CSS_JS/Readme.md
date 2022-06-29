@@ -12,6 +12,7 @@ Criei este repositório para adicionar os projetos que faço com o intuito de pr
 #### HTML, CSS e JavaScript
 3. Contador
 4. To-do List
+11. Light/Dark Mode (manipulação do DOM)
 
 <br />
 
@@ -20,5 +21,5 @@ Criei este repositório para adicionar os projetos que faço com o intuito de pr
 6. Comparar números (operadores)
 7. Verificar palíndromo e substituir números pares (varáveis e tipos)
 8. Funções
-9. Verificar tamanho do array (Tratamento de erros)
+9. Verificar tamanho do array (tratamento de erros)
 10. Conta bancária (orientação a objetos)
